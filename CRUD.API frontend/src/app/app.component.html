@@ -1,0 +1,18 @@
+<p-menubar [model]="items">
+    <ng-template pTemplate="start">
+        <img
+            src="https://img.olympics.com/images/image/private//f_auto/primary/jv41uweq2f5rji9hxffh"
+            height="40"
+            class="mr-2"
+        />
+
+
+
+    </ng-template>    
+    <ng-template pTemplate="end">
+    <input type="text" pInputText placeholder="Search" class="mr-2" >
+    <button pButton label="Exit" icon="pi pi-sign-out" ></button>
+    </ng-template>
+</p-menubar>
+<router-outlet></router-outlet>
+

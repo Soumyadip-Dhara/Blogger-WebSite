@@ -1,0 +1,21 @@
+input{
+    border-color: black;
+    position: relative;
+    left: 15vh;
+    bottom: 2.5vh;
+}
+button.submit{
+    left: 8vh;
+    bottom: 2.5vh;
+    max-width: fit-content;
+    position: relative;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+button.submit:hover {
+    color: rgb(162, 163, 163);
+}

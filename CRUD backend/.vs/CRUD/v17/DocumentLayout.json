@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\helper\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\helper\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\bal\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\bal\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\dbcontext\\blogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\dbcontext\\blogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\bal\\iservices\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\bal\\iservices\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\bal\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\bal\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\entity\\dto\\userpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\entity\\dto\\userpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\irepositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\irepositories\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\entity\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\entity\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\entity\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\entity\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\helper\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\helper\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\helper\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\helper\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\entity\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\entity\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\bal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\bal\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\helper\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\helper\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|c:\\users\\hp\\source\\repos\\crud\\crud\\crud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{06BEC117-DD34-4DED-8B72-51D9CB4B3D00}|CRUD\\CRUD.csproj|solutionrelative:crud\\crud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Controllers\\PostController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\PostController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAAAEoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T18:58:50.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\BAL\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "CRUD\\BAL\\Services\\PostService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\BAL\\Services\\PostService.cs",
+              "RelativeToolTip": "CRUD\\BAL\\Services\\PostService.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAF0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T18:42:58.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\DTO\\UserPostDTO.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\Entity\\DTO\\UserPostDTO.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\DTO\\UserPostDTO.cs",
+              "RelativeToolTip": "CRUD\\DAL\\Entity\\DTO\\UserPostDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T11:35:44.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\Entity\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "CRUD\\DAL\\Entity\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:23:16.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Program.cs",
+              "RelativeDocumentMoniker": "CRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Program.cs",
+              "RelativeToolTip": "CRUD\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T08:42:45.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Helper\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "CRUD\\Helper\\MappingConfig.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Helper\\MappingConfig.cs",
+              "RelativeToolTip": "CRUD\\Helper\\MappingConfig.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:12:31.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\BAL\\IServices\\IPostService.cs",
+              "RelativeDocumentMoniker": "CRUD\\BAL\\IServices\\IPostService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\BAL\\IServices\\IPostService.cs",
+              "RelativeToolTip": "CRUD\\BAL\\IServices\\IPostService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwAwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:13:56.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\IRepositories\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\IRepositories\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\IRepositories\\IPostRepository.cs",
+              "RelativeToolTip": "CRUD\\DAL\\IRepositories\\IPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:15:47.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppConstants.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Helper\\AppConstants.cs",
+              "RelativeDocumentMoniker": "CRUD\\Helper\\AppConstants.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Helper\\AppConstants.cs",
+              "RelativeToolTip": "CRUD\\Helper\\AppConstants.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAtwCMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:22:43.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Repositories\\Repository.cs",
+              "RelativeToolTip": "CRUD\\DAL\\Repositories\\Repository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:07:39.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlogContext.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\DBContext\\BlogContext.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\DBContext\\BlogContext.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\DBContext\\BlogContext.cs",
+              "RelativeToolTip": "CRUD\\DAL\\DBContext\\BlogContext.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAD4vy4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T05:16:34.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\BAL\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "CRUD\\BAL\\IServices\\IUserService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\BAL\\IServices\\IUserService.cs",
+              "RelativeToolTip": "CRUD\\BAL\\IServices\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:10:25.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CRUD\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CRUD\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAYwKQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:11:15.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\DTO\\PostDTO.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\Entity\\DTO\\PostDTO.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\DTO\\PostDTO.cs",
+              "RelativeToolTip": "CRUD\\DAL\\Entity\\DTO\\PostDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T18:54:48.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "CRUD\\DAL\\Repositories\\PostRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAhwCEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:16:43.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Helper\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "CRUD\\Helper\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Helper\\ApiResponse.cs",
+              "RelativeToolTip": "CRUD\\Helper\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:12:11.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\IRepositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\IRepositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\IRepositories\\IRepository.cs",
+              "RelativeToolTip": "CRUD\\DAL\\IRepositories\\IRepository.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADgvxIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:07:24.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\BAL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CRUD\\BAL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\BAL\\Services\\UserService.cs",
+              "RelativeToolTip": "CRUD\\BAL\\Services\\UserService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwFYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:10:44.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\Post.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\Entity\\Post.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\Post.cs",
+              "RelativeToolTip": "CRUD\\DAL\\Entity\\Post.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAtwCIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T18:55:08.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Entity\\User.cs",
+              "RelativeToolTip": "CRUD\\DAL\\Entity\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T19:50:47.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Enum.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Helper\\Enum.cs",
+              "RelativeDocumentMoniker": "CRUD\\Helper\\Enum.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\Helper\\Enum.cs",
+              "RelativeToolTip": "CRUD\\Helper\\Enum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:13:15.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CRUD\\DAL\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\DAL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CRUD\\DAL\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:28:43.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUD\\appsettings.json",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\appsettings.json",
+              "RelativeToolTip": "CRUD\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-18T18:52:32.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CRUD.csproj",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\CRUD.csproj",
+              "RelativeDocumentMoniker": "CRUD\\CRUD.csproj",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\CRUD\\CRUD\\CRUD.csproj",
+              "RelativeToolTip": "CRUD\\CRUD.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-18T18:54:22.952Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

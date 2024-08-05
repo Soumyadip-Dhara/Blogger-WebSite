@@ -1,0 +1,123 @@
+<!-- <h5 class="mb-5 text-lg font-bold tracking-tight text-gray-900 dark:text-white ">Blog Details</h5>
+<form [formGroup]="postdata" class="w-full" (ngSubmit)="onSubmit()" novalidate>
+    <div class="mb-5">
+      <input type="number" id="id" class="form-control" placeholder="Id" formControlName="id" size="30" hidden>
+    </div>
+    <div class="mb-5">
+      <label for="title" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white ">Title<label class="text-red-500 text-xs mt-1">*</label></label>
+      <input type="text" pInputText formControlName="Title" style="width: 100%;" />
+      @if (postdata.get('title')?.hasError('required') && postdata.get('title')?.touched) {
+      <div class="text-red-500 text-xs mt-1">Title is required</div>
+      }
+    </div> 
+    <div class="mb-5">
+      <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white ">Description<label class="text-red-500 text-xs mt-1">*</label></label>
+      <textarea 
+        rows="5" 
+        cols="30" 
+        pInputTextarea 
+        style="width: 100%;"
+        formControlName="Description">
+    </textarea>
+      @if (postdata.get('description')?.hasError('required') && postdata.get('description')?.touched) {
+      <div class="text-red-500 text-xs mt-1">Description is required</div>
+      }
+    </div>
+  
+    <div class="flex mb-5">
+      <label for="category" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Category</label>
+      <form [formGroup]="postdata">
+        <p-dropdown 
+            formControlName="Category" 
+            [options]="category"
+            optionLabel="name" optionValue="value"
+            placeholder="Select" />
+    </form>
+    
+    
+        <label for="createdBy" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white ">Created By<label class="text-red-500 text-xs mt-1">*</label></label>
+        <input type="number" pInputText formControlName="CreatedBy" />
+        @if (postdata.get('createdBy')?.hasError('required') && postdata.get('createdBy')?.touched) {
+        <div class="text-red-500 text-xs mt-1">Created By is required</div>
+        }
+    
+  
+    
+      <label for="isPublished" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Is Published</label>
+      <form [formGroup]="postdata">
+        <p-dropdown 
+            formControlName="isPublished" 
+            [options]="isPublished"
+            optionLabel="name" optionValue="value"
+            placeholder="Select" />
+    </form>
+    </div>  
+      <button pButton *ngIf="isAdding" [rounded]="true" icon="pi pi-check" severity="success" type="button" (click)="onSubmit()"> Submit</button>
+      <button pButton *ngIf="!isAdding" [rounded]="true" icon="pi pi-check" severity="success" type="button" style="margin-left: 10px;" (click)="submitPostForm()"> Update</button>
+      <button pButton [rounded]="true" icon="pi pi-times" severity="danger" type="button" style="margin-left: 10px;" (click)="onCancel()"> Cancel</button>
+  </form> -->
+
+
+
+  <h5 class="mb-5 text-lg font-bold tracking-tight text-gray-900 dark:text-white">Blog Details</h5>
+<form [formGroup]="postdata" class="w-full" (ngSubmit)="onSubmit()" novalidate>
+    <input type="number" id="id" formControlName="id" hidden>
+
+    <div class="mb-5">
+        <label for="title" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            Title <span class="text-red-500 text-xs mt-1">*</span>
+        </label>
+        <input type="text" pInputText formControlName="Title" class="w-full p-2 border border-gray-300 rounded" />
+        <div *ngIf="postdata.get('title')?.hasError('required') && postdata.get('title')?.touched" class="text-red-500 text-xs mt-1">Title is required</div>
+    </div> 
+
+    <div class="mb-5">
+        <label for="description" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+            Description <span class="text-red-500 text-xs mt-1">*</span>
+        </label>
+        <textarea rows="5" cols="30" pInputTextarea class="w-full p-2 border border-gray-300 rounded" formControlName="Description"></textarea>
+        <div *ngIf="postdata.get('description')?.hasError('required') && postdata.get('description')?.touched" class="text-red-500 text-xs mt-1">Description is required</div>
+    </div>
+
+    <div class="flex mb-5 space-x-4">
+        <div class="w-1/3">
+            <label for="category" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+              &#160;&#160;&#160;&#160;&#160;Category
+            </label>
+            <p-dropdown 
+                formControlName="Category" 
+                [options]="category"
+                optionLabel="name"
+                 optionValue="value"
+                placeholder="Select" 
+                
+                class="w-full" />
+        </div>
+        
+        <div class="w-1/3">
+            <label for="createdBy" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+              &#160;&#160;&#160;&#160;&#160;Created By <span class="text-red-500 text-xs mt-1">*</span>
+            </label>
+            <input type="number" pInputText formControlName="CreatedBy" class="w-full p-2 border border-gray-300 rounded" style="max-width: 125px;"/>
+            <div *ngIf="postdata.get('createdBy')?.hasError('required') && postdata.get('createdBy')?.touched" class="text-red-500 text-xs mt-1">Created By is required</div>
+        </div>
+
+        <div class="w-1/3">
+            <label for="isPublished" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+              &#160;&#160;Is Published
+            </label>
+            <p-dropdown 
+                formControlName="isPublished" 
+                [options]="isPublished"
+                optionLabel="name" optionValue="value"
+                placeholder="Select" 
+                class="w-full" />
+        </div>
+    </div>
+
+    <div class="flex justify-between mt-5" style="padding-top: 20%;">
+        <button pButton *ngIf="isAdding" [rounded]="true" icon="pi pi-check" severity="success" type="button" class="text-lg py-2 px-4" (click)="onSubmit()">Submit</button>
+        <button pButton *ngIf="!isAdding" [rounded]="true" icon="pi pi-check" severity="success" type="button" class="text-lg py-2 px-4 mx-2" (click)="submitPostForm()">Update</button>
+        <button pButton [rounded]="true" icon="pi pi-times" severity="danger" type="button" class="text-lg py-2 px-4 mx-2" (click)="onCancel()">Cancel</button>
+    </div>
+</form>

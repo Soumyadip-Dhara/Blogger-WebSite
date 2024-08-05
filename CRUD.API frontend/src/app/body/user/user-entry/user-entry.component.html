@@ -1,0 +1,79 @@
+<!-- <p-toast/>
+<h5 class="mb-5 text-lg font-bold tracking-tight text-gray-900 dark:text-white ">User Details</h5>
+<form [formGroup]="userdata" class="w-full"  novalidate>
+   
+  
+  
+    <div class="mb-5">
+    <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+    <input type="text" pInputText formControlName="Name" />
+    @if (userdata.get('Name')?.hasError('required') && userdata.get('Name')?.touched) {
+    <div class="form-error">Name is required</div>
+    }
+  </div>
+  <div class="mb-5">
+    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+    <p-password formControlName="Password" [feedback]="true"  [toggleMask]="true"  />
+    @if (userdata.get('password')?.hasError('required') && userdata.get('password')?.touched) {
+    <div class="form-error">Password is required</div>
+    }
+  </div>
+  <div class="mb-5">
+    <label for="isActive" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">IsActive</label>
+    <p-dropdown 
+        formControlName="IsActive" 
+        [options]="isActive"
+        optionLabel="name"
+        optionValue="value"
+        placeholder="select" />
+  </div>
+  <div>
+
+
+    <button pButton *ngIf="isAdding" [rounded]="true" severity="success" icon="pi pi-check" (click)="onSubmit()"  type="button" style="margin-left: 10px;"> Submit</button>
+    <button pButton *ngIf="!isAdding" [rounded]="true" severity="success" icon="pi pi-check" (click)="submitUserForm()"  type="button" style="margin-left: 10px;"> Update</button>
+    <button pButton [rounded]="true" severity="danger" icon="pi pi-times" (click)="onCancel()"  type="button" style="margin-left: 10px;"> Cancel</button>
+  </div>  
+
+</form> -->
+
+
+
+
+<p-toast></p-toast>
+<h5 class="mb-5 text-lg font-bold tracking-tight text-gray-900 dark:text-white">User Details</h5>
+<form [formGroup]="userdata" class="w-full" novalidate>
+    <div class="mb-5">
+        <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+        <input type="text" pInputText formControlName="Name" class="w-full p-2 border border-gray-300 rounded" />
+        <div *ngIf="userdata.get('Name')?.hasError('required') && userdata.get('Name')?.touched" class="text-red-500 text-xs mt-1">Name is required</div>
+    </div>
+
+    <div class="mb-5" *ngIf="isAdding">
+        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+        <p-password formControlName="Password"  [toggleMask]="true" class="w-full p-2 border border-gray-300 rounded"  ></p-password>
+        <div *ngIf="userdata.get('Password')?.hasError('required') && userdata.get('Password')?.touched" class="text-red-500 text-xs mt-1">Password is required</div>
+    </div>
+
+    <div class="mb-5">
+        <label for="isActive" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Is Active</label>
+        <p-dropdown 
+            formControlName="IsActive" 
+            [options]="isActive"
+            optionLabel="name"
+            optionValue="value"
+            placeholder="Select"
+            class="w-full p-2 border border-gray-300 rounded"
+        ></p-dropdown>
+    </div>
+
+    <div class="flex justify-end mt-5">
+        <button pButton *ngIf="isAdding" [rounded]="true" severity="success" icon="pi pi-check" (click)="onSubmit()" type="button" class="px-4 py-2">Submit</button>
+        <button pButton *ngIf="!isAdding" [rounded]="true" severity="success" icon="pi pi-check" (click)="submitUserForm()" type="button" class="px-4 py-2">Update</button>
+        <button pButton style="margin-left: 15px;" [rounded]="true" severity="danger" icon="pi pi-times" (click)="onCancel()" type="button" class="px-4 py-2">Cancel</button>
+    </div>
+</form>
+
+
+
+

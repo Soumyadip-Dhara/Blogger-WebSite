@@ -1,0 +1,31 @@
+<!-- 
+<div class = "card flex justify-content-center">
+   
+
+    <div class="card">
+        <p-tabMenu [model]="items" />
+    </div>
+</div> -->
+
+
+<div class ="card flex justify-content-center" style="padding-top: 80px;">
+    <p-card header="CRUD" subheader="CRUD Operations" [style]="{ width: '360px', border: '2px solid black', borderRadius: '15px'}">
+        <ng-template pTemplate="header">
+            <img alt="Card" src="https://miro.medium.com/v2/resize:fit:1400/1*2eBdh0vLZjUyCDF6x1EqvQ.png"[style]="{borderRadius: '15px'}"/>
+        </ng-template>
+        <div class="flex gap-3 mt-1">
+            <!-- <p-button label="Cancel" severity="secondary" class="w-full" styleClass="w-full" /> -->
+            <!-- <p-button label="View" class="w-full" styleClass="w-full"/> -->
+            <button pButton label="User View" icon="pi pi-user" routerLink="/user" class="p-button font-bold w-full" styleClass="w-full" style="text-decoration: none; text-align: center; width: 20px;"></button>
+            
+            <button pButton label="Post View" icon="pi pi-book" routerLink="/post" class="p-button font-bold w-full" styleClass="w-full" style="text-decoration: none; text-align: center; width: 20px;"></button>
+        </div>
+       
+        <ng-template pTemplate="footer">
+            <p>Soumyadip Dhara</p>
+        <p class="end">CopyRight &copy; Soumyadip Dhara</p>
+        </ng-template>
+        
+       
+    </p-card>
+</div>

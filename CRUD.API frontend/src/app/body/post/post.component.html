@@ -1,0 +1,138 @@
+
+<div class="flex justify-content-center">
+<div class="flex justify-content-center" style="padding-top: 10px;">
+    <p-toast/>
+    
+    <p-card [style]="{ width: '1500px', border: '2px solid black', borderRadius: '15px', backgroundColor: 'lightgray'}">
+        <p-confirmDialog/>
+
+        <p-toolbar 
+        styleClass="bg-gray-900 shadow-2" 
+        [style]="{ 'border-radius': '1rem', 'background-image': 'linear-gradient(to right, var(--blue-600), var(--blue-700))' }">
+        <ng-template pTemplate="start">
+            <span class = "font-bold" style="font-size: xx-large; color: beige;">Blogs</span>
+        </ng-template>
+        <ng-template pTemplate="center">
+            <!-- <div style="padding-top: 15%;">
+
+                <input type="text" pInputText placeholder="Search" class="mr-2" #searchInput type="text"  />
+                <button pButton type="submit" class="submit ml-2" icon="pi pi-search"></button>
+                </div> -->
+        </ng-template>
+        <ng-template pTemplate="end" >
+            <!-- <div style="padding-bottom: 30px;"> -->
+                <div class="post-category">
+                    <p-dropdown [options]="category" optionLabel="name" optionValue="value" (onChange)="postCategory($event)"></p-dropdown>
+                  </div>
+
+
+                <p-button class="flex justify-content-center" label="Create Blog" [raised]="true" icon="pi pi-plus" severity="success" (onClick)="showDialog()" size="large" ></p-button>
+            
+            
+            <!-- </div> -->
+        </ng-template>
+        </p-toolbar>
+
+
+        <div  style="padding-bottom: 30px;">
+            
+            </div>
+
+            
+
+        <!-- <p-table #dt2  [globalFilterFields]="['name', 'id.title', 'title', 'createdBy', 'category', 'id']" [value]="post" [paginator]="true" [rows]="4" [scrollable]="true" styleClass="p-datatable-gridlines"
+        scrollHeight="425px" [tableStyle]="{ 'min-width': '30rem'  }">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th pSortableColumn="id" style="width:10%">
+                        Id <p-sortIcon field="id" />
+                    </th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th pSortableColumn="createdBy" style="width:10%">
+                        Created Date <p-sortIcon field="createdBy" />
+                    </th>
+                    <th>IsPublished
+                        <div>
+                            <p-dropdown 
+                            
+                            [options]="isPublished"
+                            optionLabel="name"
+                            optionValue="value"
+                            placeholder="select"
+                            (onChange)="postPublished($event)" />
+                        </div>
+
+                    </th>
+                    
+                    <th>CreatedBy</th>
+                    <th>Category
+                        <div>
+                            <p-dropdown 
+                            
+                            [options]="category"
+                            optionLabel="name"
+                            optionValue="value"
+                            placeholder="select"
+                            (onChange)="postCategory($event)" />
+                        </div>
+                    </th>    
+                    <th>&#160; &#160; &#160; Update</th>
+                    <th>&#160; &#160; &#160; Delete</th>
+                    
+                    
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-posts>
+                <tr>
+                    <td>{{posts.id }}</td>
+                    <td>{{posts.title }}</td>
+                    <td>{{ posts.description }}</td>
+                    <td>{{ posts.createdDate | date: 'dd/MM/yyyy' }}</td>
+                    <td>{{ posts.isPublished }}</td>
+                    <td>{{ posts.createdBy }}</td>
+                    <td>{{ posts.category }}</td>
+                    <td> &#160; &#160;<p-button label="Edit"  [rounded]="true" icon="pi pi-pencil" (onClick)="showUpdateDialog(posts.id)"   size="small" ></p-button></td>
+                    <td> &#160; &#160;<p-button label="Delete"  [rounded]="true" severity="danger"  (onClick)="DeletePost(posts.id)" icon="pi pi-trash"   size="small" ></p-button></td>
+                   
+                </tr>
+            </ng-template>
+        </p-table> -->
+        <div >
+        <div *ngFor="let post of post" class="blog-post-card">
+            <p-card class="blog-card">
+              <ng-template pTemplate="header">
+                <div class="post-header">
+                  <span class="post-id">{{ post.id }}</span>
+                  <span class="post-date">{{ post.createdDate | date: 'MMM d, y h:mm:ss a' : '+05:30:00' }}</span>
+                  
+                </div>
+              </ng-template>
+              <div class="post-content">
+                <h2>{{ post.title }}</h2>
+                <p class="created-by">-- by {{ post.createdBy }}</p>
+                <p>{{ post.description }}</p>
+              </div>
+              <ng-template pTemplate="footer">
+                <div class="post-footer">
+                  <div class="post-category">
+                    <!-- <p-dropdown [options]="category" optionLabel="name" optionValue="value" (onChange)="categoryPosts($event)"></p-dropdown> -->
+                  </div>
+                  <div class="post-actions">
+                    <button pButton icon="pi pi-pencil" class="update" severity="info" [rounded]="true" (click)="showUpdateDialog(post.id)"></button>
+                    <button pButton icon="pi pi-trash" class="delete" severity="danger" [rounded]="true" (click)="DeletePost(post.id)"></button>
+                  </div>
+                </div>
+              </ng-template>
+            </p-card>
+          </div>
+        </div>
+        
+        
+    </p-card>
+</div>
+</div>
+
+
+
+
